@@ -45,4 +45,8 @@ public class Profesor extends Persona {
                 ", sueldo=" + sueldo +
                 '}';
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 }

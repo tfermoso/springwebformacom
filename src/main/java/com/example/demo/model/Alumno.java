@@ -45,4 +45,8 @@ public class Alumno extends Persona {
                 ", nota=" + nota +
                 '}';
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 }

@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #333;
+}
+
+a.boton {
+    display: inline-block;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    background-color: #2d89ef;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a.accion {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a.editar {
+    color: #0a7d00;
+}
+
+a.eliminar {
+    color: #c40000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.sin-datos {
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+button, a.btn-cancelar {
+    padding: 10px 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #2d89ef;
+    color: white;
+}
+
+a.btn-cancelar {
+    background-color: #ccc;
+    color: black;
+    margin-left: 10px;
+}
